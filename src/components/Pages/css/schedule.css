@@ -53,6 +53,10 @@
   right: -50%;
   z-index: 10 !important;
 }
+.schedule-container:nth-child(odd) {
+  left: 10%;
+  z-index: 10 !important;
+}
 
 .text-content {
   padding: 15px 20px;

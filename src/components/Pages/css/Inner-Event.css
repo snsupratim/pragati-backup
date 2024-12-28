@@ -7,8 +7,8 @@
   box-sizing: border-box;
 }
 
-/* Section styling */
-section {
+/* Section styling : change in tag style*/ 
+.event-section {
   position: relative;
   display: flex;
   justify-content: center;

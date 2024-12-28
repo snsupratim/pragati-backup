@@ -666,6 +666,81 @@ body {
 .geryish-color {
   color: #a5a4a4;
 }
+/* Existing styles */
+
+/* New styles for the timer container and single box layout */
+.timer-container {
+  text-align: center;
+  margin-top: 50px;
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.timer-container h2 {
+  color: #f1f1f1;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.timer {
+  display: flex; /* Use flexbox for horizontal layout */
+  justify-content: center;
+  align-items: center;
+  gap: 30px; /* Space between the time components */
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(8, 233, 57, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.timer:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px 5px rgba(0, 255, 0, 0.8); /* Green glow on hover */
+}
+
+.time-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; /* Space between each time component */
+}
+
+.time-box .time {
+  font-size: 3rem;
+  color: #32cd32; /* Green color for the time */
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(0, 255, 0, 0.6), 0 0 20px rgba(0, 255, 0, 0.8); /* Glowing effect */
+}
+
+.time-box .label {
+  color: #f1f1f1;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+/* Ensuring the timer is well responsive */
+@media (max-width: 768px) {
+  .timer {
+    padding: 15px;
+  }
+
+  .time-box .time {
+    font-size: 2.5rem;
+  }
+
+  .time-box .label {
+    font-size: 1rem;
+  }
+}
 
 /* Responsive Styles */
 
