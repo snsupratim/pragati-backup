@@ -166,8 +166,8 @@
 /* For Mobile (480px and below) */
 @media screen and (max-width: 480px) {
   .pages .segment11-1 .time-line {
-    width: 80%;
-    margin: 20px auto;
+    width: 100%;
+    margin: 40px auto;
     z-index: 10 !important;
   }
 
@@ -176,16 +176,30 @@
     left: -5%; /* Shift line to the left */
     z-index: 10 !important;
   }
+  
 
   .schedule-container {
     width: 100%;
-    padding: 10px 20px;
+    padding: 10px 10px;
     z-index: 10 !important;
   }
 
   .text-content h2 {
     font-size: 15px;
     z-index: 10 !important;
+  }
+  .schedule-container:nth-child(even) {
+    right: 5%;
+    z-index: 10 !important;
+  }
+  .schedule-container:nth-child(odd) {
+    left: -5%;
+    z-index: 10 !important;
+  }
+  .day-button {
+    
+    padding: 15px 15px;
+   
   }
 
   .text-content p {
