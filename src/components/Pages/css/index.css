@@ -1,0 +1,140 @@
+.reg-btn{
+    height: 30px;
+    width: auto;
+    font-size: 20px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+:root {
+    --linear-gradient: linear-gradient(
+      70deg,
+      #0ebeff,
+      #ffdd40,
+      #ae63e4,
+      #47cf73,
+      #0ebeff,
+      #ffdd40,
+      #ae63e4,
+      #47cf73
+    );
+  }
+  
+  .cp-btn,
+  .cp-btn-2 {
+    border: unset;
+    outline: unset;
+    position: relative;
+    padding: 1em 1.5em;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    text-transform: uppercase;
+  }
+  
+  .cp-btn {
+    background: black;
+    z-index: 1;
+  }
+  
+  .cp-btn::before,
+  .cp-btn::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+  }
+  
+  .cp-btn::before {
+    animation: rainbow-border 1.5s linear infinite;
+    border-radius: 4px;
+    background: var(--linear-gradient);
+    width: 100%;
+    height: 100%;
+    background-size: 200% 200%;
+  }
+  
+  .cp-btn::after {
+    border-radius: 3px;
+    margin: 3px;
+    background: inherit;
+  }
+  
+  .cp-btn-2 {
+    background: var(--linear-gradient);
+    animation: rainbow-border 1.5s linear infinite;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-size: 200% 200%;
+  }
+  
+  @-webkit-keyframes rainbow-border {
+    0% {
+      background-position: 0% 50%;
+    }
+  
+    50% {
+      background-position: 100% 50%;
+    }
+  
+    100% {
+      background-position: 200% 50%;
+    }
+  }
+  .code-inp {
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+    background-color: rgb(209, 202, 202);
+    text-align: center;
+    color: black;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+  }
+  
+  .code-inp::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border-radius: 20px;
+    background: var(--linear-gradient);
+    color: black;
+
+    z-index: -1;
+    background-size: 200% 200%;
+    animation: rainbow-border 1.5s linear infinite;
+  }
+  
+  .code-inp:focus {
+    outline: none;
+    color: black;
+
+  }
+  
+  @-webkit-keyframes rainbow-border {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 200% 50%;
+    }
+  }
+
+
+  .index-user-name-display{
+    font-size: 50px;
+  }
