@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./css/home.css";
+import "./css/index.css";
 import Footer from "../Footer";
 import Background from "./Background";
 import Background2 from "./Background2";
@@ -37,14 +38,13 @@ export const Home = () => {
 
     return () => clearInterval(interval);
   }, []);
-
   return (
     <div>
       <Background />
       <Background2 />
       <div className="pages">
         <div className="segment1">
-          <div className="segment11-1" style={{ zIndex: 10 }}>
+          <div className="segment1-1" style={{ zIndex: 10 }}>
             <h1>
               Welcome Pragati 2K25,
               <br />
@@ -54,24 +54,24 @@ export const Home = () => {
               Unleash Brainwave's potential & show <br />
               the power of your knowledge
             </p>
-          </div>
-          <div className="timer-container">
-            <div className="timer">
-              <div className="time-box">
-                <span className="time">{timeLeft.days}</span>
-                <span className="label">Days</span>
-              </div>
-              <div className="time-box">
-                <span className="time">{timeLeft.hours}</span>
-                <span className="label">Hours</span>
-              </div>
-              <div className="time-box">
-                <span className="time">{timeLeft.minutes}</span>
-                <span className="label">Minutes</span>
-              </div>
-              <div className="time-box">
-                <span className="time">{timeLeft.seconds}</span>
-                <span className="label">Seconds</span>
+            <div className="timer-container" style={{ zIndex: 10 }}>
+              <div className="timer" style={{ zIndex: 10 }}>
+                <div className="time-box">
+                  <span className="time">{timeLeft.days}</span>
+                  <span className="label">Days</span>
+                </div>
+                <div className="time-box">
+                  <span className="time">{timeLeft.hours}</span>
+                  <span className="label">Hours</span>
+                </div>
+                <div className="time-box">
+                  <span className="time">{timeLeft.minutes}</span>
+                  <span className="label">Minutes</span>
+                </div>
+                <div className="time-box">
+                  <span className="time">{timeLeft.seconds}</span>
+                  <span className="label">Seconds</span>
+                </div>
               </div>
             </div>
           </div>

@@ -1,14 +1,83 @@
+h1{
+  color: white;
+}
+p{
+  color: #a5a4a4;
+}
+.rect-box1 {
+  background-color: lightgray;
+  border-radius: 5px;
+  text-align: center;
+  position: relative; /* Position the image relative to this container */
+  overflow: hidden; /* Ensure the image doesn't overflow */
+  
+  display: block;
+  height: 70vh; /* Set a fixed height for the container */
+}
+
+.background-image {
+  width: 100%; /* Make the image width 100% */
+  height: 100%; /* Make the image height 100% */
+  object-fit: cover; /* Cover the container while maintaining aspect ratio */
+  border-radius: 5px;
+}
+
+.center-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute; /* Position the text over the image */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.center-text p {
+  margin: 0; /* Remove default margin */
+  padding: 5px 0; /* Add padding for spacing */
+}
+.label1{
+background-color: grey;
+color: white;
+font-family: arial;
+font-weight: bold;
+
+}
+
+body {
+  font-family: 'Chakra Petch', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.mouse-shadow {
+  position: absolute;
+  width: 2px; /* Increase the size */
+  height: 2px; /* Increase the size */
+  background-color: rgba(255, 255, 0, 0.281); /* Slightly reduce opacity */
+  border-radius: 50%;
+  pointer-events: none; /* Disable mouse events for the shadow */
+  transform: translate(-50%, -50%); /* Center the circle on the mouse */
+  transition: transform 1s; /* Smooth follow effect */
+  box-shadow: 0 0 150px 60px rgba(255, 255, 0, 0.281); /* Add blur effect */
+}
+
 /* Base Styles for the Container and Timer */
 .timer-container {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 40px;
   background-color: transparent;
-  padding: 20px;
+  padding: 40px;
   border-radius: 10px;
   width: 100%;
   max-width: 900px;
   margin: 0 auto;
-  /* box-shadow: 0px 5px 10px rgba(64, 239, 76, 0.3); */
+  box-shadow: 0px 5px 10px transparent;
 }
 
 .timer-container h2 {
@@ -26,10 +95,10 @@
   justify-content: center;
   align-items: center;
   gap: 30px; /* Space between each time box */
-  /* background-color: #1e1e2d; */
-  padding: 20px;
+  background-color: transparent;
+  padding: 5px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 8px rgba(26, 236, 68, 0.4);
   transition: transform 0.2s ease, box-shadow 0.3s ease;
 }
 
@@ -62,9 +131,9 @@
 
 /* Responsive Design for smaller screens */
 @media (max-width: 768px) {
-  /* .timer {
-    padding: 25px 20px;
-  } */
+  .timer {
+    padding: 15px;
+  }
 
   .time-box .time {
     font-size: 2.5rem;
@@ -72,5 +141,74 @@
 
   .time-box .label {
     font-size: 1rem;
+  }
+}
+
+
+
+
+
+.segment1-1{
+  padding-top: 100px;
+  text-align: center;
+}
+.segment1-100{
+  text-align: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.segment1-100-1{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.segment1-100-2{
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+/* Default Styles */
+.segment1-1 h1 {
+  color: white;
+  font-size: 70px;
+}
+
+.segment1-1 p {
+  color: white;
+  font-size: 25px;
+}
+
+/* Tablet Devices (e.g., width 768px and above) */
+@media (max-width: 1024px) {
+  .segment1-1 h1 {
+    font-size: 50px; /* Adjust font size for tablets */
+  }
+  .segment1-1 p {
+    font-size: 20px; /* Adjust font size for tablets */
+  }
+}
+
+/* Mobile Devices (e.g., width 767px and below) */
+@media (max-width: 767px) {
+  .segment1-1 h1 {
+    font-size: 35px; /* Smaller font size for mobile */
+    text-align: center; /* Optional: Center text for smaller screens */
+  }
+  .segment1-1 p {
+    font-size: 18px; /* Smaller font size for mobile */
+    text-align: center; /* Optional: Center text for smaller screens */
+  }
+  .segment1-100{
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 100%;
   }
 }
