@@ -1,3 +1,5 @@
+
+
 /* Default Styles */
 .session-text {
   color: white;
@@ -20,7 +22,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 75vh;
+  height: 120vh;
+ 
 }
 
 .segment3, .segment4 {

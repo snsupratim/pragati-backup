@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
 import { HamburgetMenuClose, HamburgetMenuOpen } from "./Icons";
+import logo from "./images/logo.png"; // Adjust the path as needed
+
 
 function NavBar() {
   const [click, setClick] = useState(false);
@@ -28,7 +30,8 @@ function NavBar() {
     <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <div className="nav-container">
         <NavLink exact to="/" className="nav-logo">
-          <span>PRAGATI 2025</span>
+          {/* <span>PRAGATI 2025</span> */}
+          <img src={logo} className='f-logo'/><h5>PRAGATI 2K25</h5> 
         </NavLink>
 
         <ul className={click ? "nav-menu active" : "nav-menu"}>

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Great+Vibes|Noticia+Text|Open+Sans+Condensed:300|Shadows+Into+Light|Shrikhand");
+
 h1{
   color: white;
 }
@@ -75,7 +77,7 @@ body {
   padding: 40px;
   border-radius: 10px;
   width: 100%;
-  max-width: 900px;
+  max-width: 700px;
   margin: 0 auto;
   box-shadow: 0px 5px 10px transparent;
 }
@@ -120,7 +122,7 @@ body {
   font-size: 3rem;
   color: #32cd32; /* Green color for the time */
   font-weight: bold;
-  text-shadow: 0 0 10px rgba(0, 255, 0, 0.6), 0 0 20px rgba(0, 255, 0, 0.8); /* Glowing effect */
+  text-shadow: 0 0 10px rgb(35 191 35 / 60%), 0 0 20px rgb(13 30 13 / 80%)/* Glowing effect */
 }
 
 .time-box .label {
@@ -136,11 +138,11 @@ body {
   }
 
   .time-box .time {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .time-box .label {
-    font-size: 1rem;
+    font-size: 16px;
   }
 }
 
@@ -150,6 +152,7 @@ body {
 
 .segment1-1{
   padding-top: 100px;
+  padding-bottom: 100px;
   text-align: center;
 }
 .segment1-100{
@@ -177,7 +180,11 @@ body {
 /* Default Styles */
 .segment1-1 h1 {
   color: white;
-  font-size: 70px;
+  font-size: 4rem;
+}
+.segment1-1 h2 {
+  color: white;
+  font-size: 2rem;
 }
 
 .segment1-1 p {
@@ -198,7 +205,7 @@ body {
 /* Mobile Devices (e.g., width 767px and below) */
 @media (max-width: 767px) {
   .segment1-1 h1 {
-    font-size: 35px; /* Smaller font size for mobile */
+    font-size: 25px; /* Smaller font size for mobile */
     text-align: center; /* Optional: Center text for smaller screens */
   }
   .segment1-1 p {
@@ -212,3 +219,106 @@ body {
     height: 100%;
   }
 }
+
+
+
+
+.unique-container {
+  height: 30px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.unique-container span {
+  color: #9AE202;
+  font-size: 4rem;
+  letter-spacing: 0.5em;
+  animation: unique-fonts;
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  text-shadow: 0 0 20px #aaaaaaa4;
+  
+
+}
+
+@keyframes unique-fonts {
+  0% {
+    font-family: "Courier New", Courier, monospace;
+  }
+  10% {
+    font-family: "Noticia Text", serif;
+  }
+  20% {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  30% {
+    font-family: "Anton", sans-serif;
+  }
+  40% {
+    font-family: "Times New Roman", Times, serif;
+  }
+  50% {
+    font-family: "Abril Fatface", cursive;
+  }
+  60% {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  70% {
+    font-family: "Shrikhand", cursive;
+  }
+  80% {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
+  90% {
+    font-family: "Open Sans Condensed", sans-serif;
+  }
+  100% {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+}
+
+
+
+/* Adjust styles for smaller screens */
+@media (max-width: 768px) {
+  .unique-container {
+    padding: 30px;
+  }
+
+  .unique-container span {
+    font-size: 2.5rem;
+    letter-spacing: 0.3em;
+  }
+}
+
+@media (max-width: 480px) {
+  .unique-container {
+    padding: 20px;
+  }
+
+  .unique-container span {
+    font-size: 1.8rem;
+    letter-spacing: 0.2em;
+  }
+
+  .timer-container {
+    text-align: center;
+    margin-top: 40px;
+    background-color: transparent;
+    padding: 40px;
+    border-radius: 10px;
+    width: 95%;
+    max-width: 700px;
+    margin: 0 auto;
+    box-shadow: 0px 5px 10px transparent;
+  }
+  .time-box .time {
+    font-size: 2rem;
+    color: #32cd32; /* Green color for the time */
+    font-weight: bold;
+    text-shadow: 0 0 10px rgb(35 191 35 / 60%), 0 0 20px rgb(13 30 13 / 80%)/* Glowing effect */
+  }
+}
+

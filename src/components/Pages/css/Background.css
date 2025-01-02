@@ -119,7 +119,7 @@
     position: fixed !important;
     width: 30px;
     height: 30px;
-    border: 3px solid greenyellow!important; /* Greenish border color */
+    /* border: 3px solid greenyellow!important;  */
     border-radius: 50%; /* Makes the element circular */
     background-color: transparent; /* Transparent center */
     pointer-events: none !important;

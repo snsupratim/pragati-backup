@@ -26,7 +26,7 @@ const Innovation = () => {
         />
         <Card
           image="https://via.placeholder.com/320x200"
-          title="FIFA"
+          title="E FOOTBALL"
           description="SOLO PATICIPATION, GAMING"
           link="/FIFA"  // unique link for this card
         />
