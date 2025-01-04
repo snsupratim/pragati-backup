@@ -1,0 +1,29 @@
+.about-1{
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    margin-top: 100px;
+}
+.lef{
+    width: 50%;
+    height: 70vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rig{
+    width: 50%;
+    height: 70vh;
+    background-color: transparent;
+    text-align: justify;
+    padding: 20px;
+    font-size: 1.1rem;
+    color: rgb(175, 172, 172);
+}
+
+.colg-logo{
+    height: 65vh;
+    width: 50vh;
+}

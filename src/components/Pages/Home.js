@@ -4,6 +4,8 @@ import "./css/index.css";
 import Footer from "../Footer";
 import Background from "./Background";
 import Background2 from "./Background2";
+import sp1 from "../images/hp.png";
+import sp2 from "../images/nike.jpg";
 
 export const Home = () => {
   const [timeLeft, setTimeLeft] = useState({
@@ -75,10 +77,27 @@ export const Home = () => {
                   <span className="label">Seconds</span>
                 </div>
               </div>
-            </div>
+            </div> 
           </div>
+          <div className="segment1-1-1">
+                <div className="segment1-100-1">
+                  <div >
+                    <h1>Pragati 2025 Sponsors</h1><br/><br/>
+                    
+                     <div className="sponsor-cell">
+                       <img src={sp1} alt="Description of image" className="sponsor-images"/>
+                       <img src={sp2} alt="Description of image" className="sponsor-images"/>
+
+                      </div>
+                  </div>    
+                </div>
+              </div>
+          
         </div>
       </div>
+      
+              
+      
       <Footer />
     </div>
   );
