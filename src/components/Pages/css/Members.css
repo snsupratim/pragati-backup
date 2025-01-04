@@ -9,11 +9,9 @@
 .page-title {
   font-size: 2.5rem;
   margin-bottom: 2rem !important;
-  text-transform: uppercase;
   text-align: center;
   letter-spacing: 2px;
   font-family: "Chakra Petch", sans-serif;
-  text-shadow: 0 4px 8px rgba(174, 255, 0, 0.2), 0 6px 20px rgba(174, 255, 0, 0.3) !important;
   z-index: 10 !important;
 }
 
@@ -33,14 +31,11 @@
   color: #fff;
   margin-bottom: 2rem;
   font-weight: bold;
-  text-transform: uppercase;
   letter-spacing: 2px;
   text-align: center;
-  text-shadow: 0 4px 8px rgba(174, 255, 0, 0.2), 0 6px 20px rgba(174, 255, 0, 0.3);
   z-index: 10 !important;
 }
 .section-title:hover {
-  text-shadow: 0 6px 12px rgba(174, 255, 0, 0.5);
   transition: text-shadow 0.3s ease-in-out;
 }
 

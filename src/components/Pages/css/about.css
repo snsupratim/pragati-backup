@@ -1,11 +1,13 @@
-.about-1{
+.about-1 {
     height: auto;
     width: 100%;
     background-color: transparent;
     display: flex;
+    flex-wrap: wrap; /* Adjust layout for smaller screens */
     margin-top: 100px;
 }
-.lef{
+
+.lef {
     width: 50%;
     height: 70vh;
     background-color: transparent;
@@ -13,7 +15,8 @@
     align-items: center;
     justify-content: center;
 }
-.rig{
+
+.rig {
     width: 50%;
     height: 70vh;
     background-color: transparent;
@@ -23,7 +26,30 @@
     color: rgb(175, 172, 172);
 }
 
-.colg-logo{
+.colg-logo {
     height: 65vh;
     width: 50vh;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .about-1 {
+        flex-direction: column; /* Stack elements vertically */
+        margin-top: 50px;
+    }
+
+    .lef, .rig {
+        width: 100%; /* Full width on mobile */
+        height: auto; /* Adjust height for content */
+    }
+
+    .rig {
+        font-size: 1rem; /* Slightly smaller text for mobile */
+        padding: 15px; /* Adjust padding */
+    }
+
+    .colg-logo {
+        height: 40vh; /* Adjust logo size */
+        width: auto; /* Maintain aspect ratio */
+    }
 }
