@@ -10,6 +10,6 @@ canvas {
   
   .pages {
     position: relative !;
-    z-index: -1; /* Ensure the content stays above the canvas */
+    z-index: -1 !important; /* Ensure the content stays above the canvas */
   }
   

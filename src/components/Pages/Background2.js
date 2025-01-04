@@ -1,7 +1,6 @@
 // Background2.js
 import React, { useEffect } from "react";
- import "./css/Background2.css";
-
+import "./css/Background2.css";
 
 const Background2 = () => {
   useEffect(() => {
@@ -17,7 +16,13 @@ const Background2 = () => {
       size = 7,
       speed = 15,
       parts = new Array(),
-      colors = ["Green", "greenyellow", "76b041", "#89b347", "#55883B"];
+      colors = [
+        "rgba(144, 238, 144, 0.6)", // light green with transparency
+        "rgba(173, 255, 47, 0.6)",  // greenyellow with transparency
+        "rgba(118, 176, 65, 0.6)",  // forest green
+        "rgba(137, 179, 71, 0.6)",  // lime green
+        "rgba(85, 136, 59, 0.6)"    // darker green with transparency
+      ];
     const mouse = { x: 0, y: 0 };
 
     canvas.setAttribute("width", w);

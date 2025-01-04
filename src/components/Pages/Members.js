@@ -1,6 +1,7 @@
 import "./css/Members.css";
 import Footer from "../Footer";
 import { FaWhatsapp, FaInstagram, FaGithub } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
 import Background from "./Background";
 import Background2 from "./Background2";
 
@@ -284,7 +285,7 @@ export const Members = () => {
                       <p className="member-role">Event Manager</p>
                       <p className="member-roll">Roll No: 100001</p>
                       <div className="member-social">
-                        <a
+                      <a
                           href="https://wa.me/1234567890"
                           target="_blank"
                           rel="noopener noreferrer"
@@ -293,20 +294,12 @@ export const Members = () => {
                           <FaWhatsapp />
                         </a>
                         <a
-                          href="https://instagram.com"
+                          href="mailto:rohit.kumar@example.com"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="social-icon instagram"
+                          className="social-icon gmail"
                         >
-                          <FaInstagram />
-                        </a>
-                        <a
-                          href="https://github.com"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="social-icon github"
-                        >
-                          <FaGithub />
+                          <FaEnvelope />
                         </a>
                       </div>
                     </div>
@@ -322,10 +315,10 @@ export const Members = () => {
                     </div>
                     <div className="member-info">
                       <h3 className="member-name">Organizer 2</h3>
-                      <p className="member-role">Logistics Coordinator</p>
+                      <p className="member-role">Event Manager</p>
                       <p className="member-roll">Roll No: 100002</p>
                       <div className="member-social">
-                        <a
+                      <a
                           href="https://wa.me/1234567890"
                           target="_blank"
                           rel="noopener noreferrer"
@@ -334,20 +327,12 @@ export const Members = () => {
                           <FaWhatsapp />
                         </a>
                         <a
-                          href="https://instagram.com"
+                          href="mailto:rohit.kumar@example.com"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="social-icon instagram"
+                          className="social-icon gmail"
                         >
-                          <FaInstagram />
-                        </a>
-                        <a
-                          href="https://github.com"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="social-icon github"
-                        >
-                          <FaGithub />
+                          <FaEnvelope />
                         </a>
                       </div>
                     </div>
@@ -363,10 +348,10 @@ export const Members = () => {
                     </div>
                     <div className="member-info">
                       <h3 className="member-name">Organizer 3</h3>
-                      <p className="member-role">Event Coordinator</p>
+                      <p className="member-role">Event Manager</p>
                       <p className="member-roll">Roll No: 100003</p>
                       <div className="member-social">
-                        <a
+                      <a
                           href="https://wa.me/1234567890"
                           target="_blank"
                           rel="noopener noreferrer"
@@ -375,20 +360,12 @@ export const Members = () => {
                           <FaWhatsapp />
                         </a>
                         <a
-                          href="https://instagram.com"
+                          href="mailto:rohit.kumar@example.com"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="social-icon instagram"
+                          className="social-icon gmail"
                         >
-                          <FaInstagram />
-                        </a>
-                        <a
-                          href="https://github.com"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="social-icon github"
-                        >
-                          <FaGithub />
+                          <FaEnvelope />
                         </a>
                       </div>
                     </div>
@@ -404,10 +381,10 @@ export const Members = () => {
                     </div>
                     <div className="member-info">
                       <h3 className="member-name">Organizer 4</h3>
-                      <p className="member-role">Venue Manager</p>
+                      <p className="member-role">Event Manager</p>
                       <p className="member-roll">Roll No: 100004</p>
                       <div className="member-social">
-                        <a
+                      <a
                           href="https://wa.me/1234567890"
                           target="_blank"
                           rel="noopener noreferrer"
@@ -416,20 +393,12 @@ export const Members = () => {
                           <FaWhatsapp />
                         </a>
                         <a
-                          href="https://instagram.com"
+                          href="mailto:rohit.kumar@example.com"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="social-icon instagram"
+                          className="social-icon gmail"
                         >
-                          <FaInstagram />
-                        </a>
-                        <a
-                          href="https://github.com"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="social-icon github"
-                        >
-                          <FaGithub />
+                          <FaEnvelope />
                         </a>
                       </div>
                     </div>
@@ -445,7 +414,7 @@ export const Members = () => {
                     </div>
                     <div className="member-info">
                       <h3 className="member-name">Organizer 5</h3>
-                      <p className="member-role">Sponsorship Manager</p>
+                      <p className="member-role">Event Manager</p>
                       <p className="member-roll">Roll No: 100005</p>
                       <div className="member-social">
                         <a
@@ -457,20 +426,12 @@ export const Members = () => {
                           <FaWhatsapp />
                         </a>
                         <a
-                          href="https://instagram.com"
+                          href="mailto:rohit.kumar@example.com"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="social-icon instagram"
+                          className="social-icon gmail"
                         >
-                          <FaInstagram />
-                        </a>
-                        <a
-                          href="https://github.com"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="social-icon github"
-                        >
-                          <FaGithub />
+                          <FaEnvelope />
                         </a>
                       </div>
                     </div>
@@ -486,7 +447,7 @@ export const Members = () => {
                     </div>
                     <div className="member-info">
                       <h3 className="member-name">Organizer 6</h3>
-                      <p className="member-role">Marketing Manager</p>
+                      <p className="member-role">Event Manager</p>
                       <p className="member-roll">Roll No: 100006</p>
                       <div className="member-social">
                         <a
@@ -498,20 +459,12 @@ export const Members = () => {
                           <FaWhatsapp />
                         </a>
                         <a
-                          href="https://instagram.com"
+                          href="mailto:rohit.kumar@example.com"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="social-icon instagram"
+                          className="social-icon gmail"
                         >
-                          <FaInstagram />
-                        </a>
-                        <a
-                          href="https://github.com"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="social-icon github"
-                        >
-                          <FaGithub />
+                          <FaEnvelope />
                         </a>
                       </div>
                     </div>
