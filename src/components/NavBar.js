@@ -4,7 +4,6 @@ import "./NavBar.css";
 import { HamburgetMenuClose, HamburgetMenuOpen } from "./Icons";
 import logo from "./images/logo.png"; // Adjust the path as needed
 
-
 function NavBar() {
   const [click, setClick] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -31,7 +30,8 @@ function NavBar() {
       <div className="nav-container">
         <NavLink exact to="/" className="nav-logo">
           {/* <span>PRAGATI 2025</span> */}
-          <img src={logo} className='f-logo'/><h5>PRAGATI 2K25</h5> 
+          <img src={logo} className="f-logo" />
+          <h5>PRAGATI 2K25</h5>
         </NavLink>
 
         <ul className={click ? "nav-menu active" : "nav-menu"}>
@@ -79,7 +79,7 @@ function NavBar() {
               Schedule
             </NavLink>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <NavLink
               exact
               to="/allocation"
@@ -89,7 +89,7 @@ function NavBar() {
             >
               Allocation
             </NavLink>
-          </li>
+          </li> */}
           <li className="nav-item">
             <NavLink
               exact
