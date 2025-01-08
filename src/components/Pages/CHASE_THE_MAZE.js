@@ -4,16 +4,16 @@ import "./css/Inner-Event.css";
 import Background from "./Background";
 import Background2 from "./Background2";
 import Footer from "../Footer";
-import eventImage from "./../images/cotact-small-bg.jpg"; // Import the image
+import eventImage from "./../images/eventps/chazethemaize.jpg"; // Import the image
 
 const CHASE_THE_MAZE = () => {
   const [activeTab, setActiveTab] = useState("About");
 
   const tabsContent = {
-    About: "Join us for an exciting movie night filled with popcorn, laughter, and great company! Save the date and bring your favorite snacks to make it a memorable evening.",
-    Timeline: "Event starts at 7 PM and ends at 11 PM. Be on time to grab the best seats!",
-    RegistrationFee: "The registration fee is $10 per person. Includes snacks and beverages.",
-    Contacts: "For more information, contact us at movie@night.com or call (123) 456-7890.",
+    About: "To build a robot that is able to navigate out of the maze in the quickest time possible from the designated starting point to the ending point.",
+    Timeline: "",
+    RegistrationFee: "MCKVIE Students: 100rs/Team & Outside Students: 400rs/Team",
+    Contacts: "For any query contact:",
   };
 
   const card = {
@@ -52,9 +52,9 @@ const CHASE_THE_MAZE = () => {
             </div>
             <p>{tabsContent[activeTab]}</p>
             <div className="button-group">
-              <button className="btn">Register</button>
-              <button className="btn">Rule Book</button>
-              <button className="btn">General Rule</button>
+            <a href="https://forms.gle/16KiXi9v59opxndb7"><button className="btn">Register</button></a>
+              <a href=""><button className="btn">Rule Book</button></a>
+              <a href="https://drive.google.com/file/d/1CeJkurMsE851m-eSa88T71toqM5iU6sS/view?usp=sharing"><button className="btn">General Rule</button></a>
             </div>
           </div>
         </div>

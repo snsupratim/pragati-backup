@@ -6,6 +6,9 @@ import "./css/Event.css";
 import "./css/index.css";
 import Background from "./Background";
 import Background2 from "./Background2";
+import InnovativeIdeaContest from "../images/eventps/InovativeIdea.jpg";
+import InnovativeModelCompetition from "../images/eventps/InnovativeModel.jpg";
+import TechnicalPosterPresentation from "../images/eventps/TechnicalPoster.png";
 
 const Innovation = () => {
   return (
@@ -19,19 +22,19 @@ const Innovation = () => {
 
       <div className="cardEvent__grid">
         <Card
-          image="https://via.placeholder.com/320x200"
+          image={InnovativeIdeaContest}
           title="INNOVATIVE IDEA CONTEST"
           description="TEAM:: (4-6), INNOVATION"
           link="/InnovativeIdeaContest"  // unique link for this card
         />
         <Card
-          image="https://via.placeholder.com/320x200"
+          image={InnovativeModelCompetition}
           title="INNOVATIVE MODEL COMPETITION"
           description="TEAM:: (1-4), INNOVATION"
           link="/InnovativeModelCompetition"  // unique link for this card
         />
         <Card
-          image="https://via.placeholder.com/320x200"
+          image={TechnicalPosterPresentation}
           title="TECHNICAL POSTER PRESENTATION"
           description="TEAM:: (1-3), INNOVATION"
           link="/TechnicalPosterPresentation"  // unique link for this card

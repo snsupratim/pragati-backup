@@ -5,6 +5,10 @@ import "./css/Event.css";
 import "./css/index.css";
 import Background from "./Background";
 import Background2 from "./Background2";
+import CODEFIESTA from "../images/eventps/CodeFiesta.png";
+import CATIA_desginContest from "../images/eventps/CATIAP.png";
+import CircuitDesign from "../images/eventps/CircuitDesign.png";
+import ML_MANIA from "../images/eventps/MLMania.png";
 
 const CodingAndEngineering = () => {
   return (
@@ -17,25 +21,25 @@ const CodingAndEngineering = () => {
             <div className="cardEvent__grid">
               {/* Card components */}
               <Card
-                image="https://via.placeholder.com/320x200"
+                image={CODEFIESTA}
                 title="CODEFIESTA"
                 description="TEAM:: (2), CODING AND ENGINEERING"
                 link="./CODEFIESTA" // unique link for this card
               />
               <Card
-                image="https://via.placeholder.com/320x200"
+                image={CATIA_desginContest}
                 title="CATIA - DESIGN COMPETITION"
                 description="TEAM:: (2), CODING AND ENGINEERING"
               link="/CATIA_desginContest" // unique link for this card
               />
               <Card
-                image="https://via.placeholder.com/320x200"
+                image={CircuitDesign}
                 title="CIRCUIT DESIGN COMPETITION"
                 description="TEAM:: (1-3), CODING AND ENGINEERING"
                 link="/CircuitDesign" // unique link for this card
               />
               <Card
-                image="https://via.placeholder.com/320x200"
+                image={ML_MANIA}
                 title="ML MANIA"
                 description="TEAM:: (2), CODING AND ENGINEERING"
                 link="/ML_MANIA" // unique link for this card

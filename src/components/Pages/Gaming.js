@@ -6,7 +6,8 @@ import "./css/Event.css";
 import "./css/index.css";
 import Background from "./Background";
 import Background2 from "./Background2";
-
+import NFS_MOSTWANTED from "../images/eventps/Nfs.jpg";
+import eFootball from "../images/eventps/eFOOTBALL.jpg"
 const Innovation = () => {
   return (
     <div><Background />
@@ -19,13 +20,13 @@ const Innovation = () => {
     <div className="Events-container">
       <div className="cardEvent__grid">
         <Card
-          image="https://via.placeholder.com/320x200"
+          image={NFS_MOSTWANTED}
           title="NFS-MOST WANTED"
           description="SOLO PATICIPATION, GAMING"
           link="/NFS_MOSTWANTED"  // unique link for this card
         />
         <Card
-          image="https://via.placeholder.com/320x200"
+          image={eFootball}
           title="E FOOTBALL"
           description="SOLO PATICIPATION, GAMING"
           link="/FIFA"  // unique link for this card

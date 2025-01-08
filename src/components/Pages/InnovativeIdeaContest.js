@@ -4,16 +4,16 @@ import "./css/Inner-Event.css";
 import Background from "./Background";
 import Background2 from "./Background2";
 import Footer from "../Footer";
-import eventImage from "./../images/cotact-small-bg.jpg"; // Import the image
+import eventImage from "./../images/eventps/InovativeIdea.jpg"; // Import the image
 
 const InnovativeIdeaContest = () => {
   const [activeTab, setActiveTab] = useState("About");
 
   const tabsContent = {
-    About: "Innovate to Elevate – Your Ideas, Our Future! Get ready to showcase your innovation ideas💡 in this thrilling competition presented by PRAGATI 2025.",
-    Timeline: "Event starts at 7 PM and ends at 11 PM. Be on time to grab the best seats!",
-    RegistrationFee: "Outer College Teams: ₹400 MCKVIE + Outer College Teams: ₹400  MCKVIE Only Teams: ₹100 .",
-    Contacts: "For any query contact "
+    About: "The guidelines ask for articles in specific topics and a specific format for new ideas. Presentations should be in PowerPoint and include the problem, solution, and why the solution is unique and possible.",
+    Timeline: "",
+    RegistrationFee: "MCKVIE STUDENTS : 100rs/Team & OUTSIDE Students : 200rs/Team.",
+    Contacts: "For any query contact: "
   };
 
   const card = {
@@ -52,9 +52,9 @@ const InnovativeIdeaContest = () => {
             </div>
             <p>{tabsContent[activeTab]}</p>
             <div className="button-group">
-              <button className="btn">Register</button>
-              <button className="btn">Rule Book</button>
-              <button className="btn">General Rule</button>
+            <a href="https://forms.gle/LdnRcMHx8UmEeawCA"><button className="btn">Register</button></a>
+              <a href=""><button className="btn">Rule Book</button></a>
+              <a href="https://drive.google.com/file/d/1CeJkurMsE851m-eSa88T71toqM5iU6sS/view?usp=sharing"><button className="btn">General Rule</button></a>
             </div>
           </div>
         </div>

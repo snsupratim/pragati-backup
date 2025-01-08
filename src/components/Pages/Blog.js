@@ -20,14 +20,14 @@ export const Blog = () => {
       <div className="blog-cards-container">
         {/* Card 1 */}
         <div className="blog-card">
-          <img
+          {/*<img
             src="https://via.placeholder.com/300"
             alt="Card 1"
             className="blog-card-image"
-          />
+          />*/}
           <h2 className="blog-card-title">INNOVATION</h2>
           <p className="blog-card-description">
-            This is the description for Card 1. Learn more about this topic.
+            
           </p>
           <div className="blog-card-footer">
             <button
@@ -41,14 +41,14 @@ export const Blog = () => {
 
         {/* Card 2 */}
         <div className="blog-card">
-          <img
+          {/*<img
             src="https://via.placeholder.com/300"
             alt="Card 2"
             className="blog-card-image"
-          />
+          />*/}
           <h2 className="blog-card-title">CODING AND ENGINEERING</h2>
           <p className="blog-card-description">
-            This is the description for Card 2. Learn more about this topic.
+            
           </p>
           <div className="blog-card-footer">
             <button
@@ -62,14 +62,14 @@ export const Blog = () => {
 
         {/* Card 3 */}
         <div className="blog-card">
-          <img
+          {/*<img
             src="https://via.placeholder.com/300"
             alt="Card 3"
             className="blog-card-image"
-          />
+          />*/}
           <h2 className="blog-card-title">QUIZ AND MATH APTITUDE</h2>
           <p className="blog-card-description">
-            This is the description for Card 3. Learn more about this topic.
+           
           </p>
           <div className="blog-card-footer">
             <button
@@ -83,14 +83,14 @@ export const Blog = () => {
 
         {/* Card 4 */}
         <div className="blog-card">
-          <img
+          {/*<img
             src="https://via.placeholder.com/300"
             alt="Card 4"
             className="blog-card-image"
-          />
+          />*/}
           <h2 className="blog-card-title">GAMING</h2>
           <p className="blog-card-description">
-            This is the description for Card 4. Learn more about this topic.
+            
           </p>
           <div className="blog-card-footer">
             <button
@@ -104,14 +104,14 @@ export const Blog = () => {
 
         {/* Card 5 */}
         <div className="blog-card">
-          <img
+          {/*<img
             src="https://via.placeholder.com/300"
             alt="Card 5"
             className="blog-card-image"
-          />
+          />*/}
           <h2 className="blog-card-title">ROBOTICS</h2>
           <p className="blog-card-description">
-            This is the description for Card 5. Learn more about this topic.
+            
           </p>
           <div className="blog-card-footer">
             <button

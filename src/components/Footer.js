@@ -41,7 +41,7 @@ const Footer = () => {
 
               {/* MAil*/}
               <a
-                href="https://whatsapp.com/channel/0029VaHd6v80VycIa4NW0N32"
+                href="mailto:pragati@mckvie.edu.in"
                 target="_blank"
                 rel="noopener noreferrer"
               >
