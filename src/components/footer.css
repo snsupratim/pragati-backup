@@ -179,6 +179,7 @@ h3{
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index:12;
 }
 
 @media (min-width: 1024px) { /* Adjust size for laptop screens and above */
