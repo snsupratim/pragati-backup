@@ -86,7 +86,6 @@ export const Home = () => {
                     
                      <div className="sponsor-cell">
                        <img src={sp1} alt="Description of image" className="sponsor-images"/>
-                       <img src={sp2} alt="Description of image" className="sponsor-images"/>
 
                       </div>
                   </div>    
