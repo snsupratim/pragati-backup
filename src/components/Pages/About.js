@@ -20,11 +20,11 @@ export const About = () => {
               <div className="rig">Pragati 2025 - Igniting Innovation at MCKV Institute of Engineering, Liluah<br/><br/>
 
 Dear Tech Enthusiasts,
-Join us at Pragati 2025, MCKVIE's premier TechFest, where innovation meets excellence. Mark your calendars for March 6th to 8th, 2025, at MCKV Institute of Engineering, Liluah.<br/><br/>
+Join us at Pragati 2025, MCKVIE's premier TechFest, where innovation meets excellence. Mark your calendars for February 4th to 6th, 2025, at MCKV Institute of Engineering, Liluah.<br/><br/>
 
-Experience the pinnacle of technology and innovation at Pragati 2024, hosted by MCKV Institute of Engineering, Liluah from 6th to 8th March 2025. Engage in a Coding Extravaganza, witness epic Robo Wars, and compete in Gaming Galore featuring FIFA and NFS. Explore cutting-edge Machine Learning challenges and tackle brain-teasing Math Olympiads. This event invites tech enthusiasts from other colleges to join in a celebration where innovation steals the spotlight. Join us for an unforgettable experience at Pragati 2025!<br/><br/>
+Experience the pinnacle of technology and innovation at Pragati 2025, hosted by MCKV Institute of Engineering, Liluah from 6th to 8th March 2025. Engage in a Coding Extravaganza, witness epic Robo Wars, and compete in Gaming Galore featuring FIFA and NFS. Explore cutting-edge Machine Learning challenges and tackle brain-teasing Math Olympiads. This event invites tech enthusiasts from other colleges to join in a celebration where innovation steals the spotlight. Join us for an unforgettable experience at Pragati 2025!<br/><br/>
 
-Open Invitation to Colleges: Pragati 2024 welcomes students from other</div>
+Open Invitation to Colleges: Pragati 2025 welcomes students from other</div>
 
             </div>
           </div>

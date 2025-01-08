@@ -10,24 +10,22 @@ export const Contact = () => {
   const faqData = [
     {
       question: "Can we participate in Multiple Events ?",
-      answer:
-        "Yes you can.",
+      answer: "Yes you can.",
     },
     {
       question: "On spot registration is there ?",
-      answer:
-      "Yes. ",
+      answer: "Yes. ",
     },
     {
       question: "What's the Venue ?",
-      answer:
-        "MCKVIE Campus, Liluah, West Bengal.",
+      answer: "MCKVIE Campus, Liluah, West Bengal.",
     },
     {
       question: "How to register ?",
-      answer: "Check our instagram page for more information.",
+      answer: "Check our instagram page for more information." ,
     },
   ];
+  
   const [visibleIndex, setVisibleIndex] = useState(null);
 
   const toggleAnswer = (index) => {
