@@ -112,7 +112,7 @@
 /* Media query for small mobile devices (e.g., below 480px) */
 @media (max-width: 480px) {
     .about-title {
-        font-size: 1.8rem; /* Reduce font size further */
+        font-size: 3.2rem !important; /* Reduce font size further */
         text-align: center; /* Center align the title for small devices */
         align-self: center; /* Center title within .rig container */
         margin-bottom: 30px !important; /* Add more space below the title */
