@@ -1,7 +1,6 @@
 import "./css/Members.css";
 import Footer from "../Footer";
 import { FaWhatsapp, FaInstagram, FaGithub } from "react-icons/fa";
-import { FaEnvelope } from "react-icons/fa";
 import Background from "./Background";
 import Background2 from "./Background2";
 import snsupratim from "../members/snsupratim.jpg";
