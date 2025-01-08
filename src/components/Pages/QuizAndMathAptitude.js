@@ -14,7 +14,7 @@ const Innovation = () => {
      <div className="segment11">
         <div className="segment11-1"><Background />
         <Background2 />
-        <h1 className="Events-title">COMPITITION :: QUIZ AND MATH APTITUDE</h1>
+        <h1 className="Events-title">EVENT :: QUIZ AND MATH APTITUDE</h1>
     <div className="Events-container">
       <div className="cardEvent__grid">
         <Card

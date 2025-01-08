@@ -12,7 +12,7 @@ const CodingAndEngineering = () => {
     <div className="pages">
       <div className="segment11">
         <div className="segment11-1">
-          <h1 className="Events-title">COMPETITION :: CODING AND ENGINEERING</h1>
+          <h1 className="Events-title">EVENT :: CODING AND ENGINEERING DESIGN</h1>
           <div className="Events-container">
             <div className="cardEvent__grid">
               {/* Card components */}

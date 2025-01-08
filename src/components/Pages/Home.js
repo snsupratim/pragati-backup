@@ -48,14 +48,11 @@ export const Home = () => {
         <div className="segment1">
           <div className="segment1-1" style={{ zIndex: 10 }}>
             <h1>
-              Welcome To<div className="unique-container"><span>PRAGATI 2K25</span></div>
+              Welcome To<div className="unique-container"><span>PRAGATI 2025</span></div>
               {/* <br /> */}
-              Battleground of Students
+              Annual Tech Fest of MCKVIE
             </h1>
-            <p>
-              Unleash Brainwave's potential & show <br />
-              the power of your knowledge
-            </p>
+            
 <br/><br/>
             <h2>EVENT STARTS IN</h2>
             <div className="timer-container" style={{ zIndex: 10 }}>

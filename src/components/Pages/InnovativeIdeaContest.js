@@ -10,10 +10,10 @@ const InnovativeIdeaContest = () => {
   const [activeTab, setActiveTab] = useState("About");
 
   const tabsContent = {
-    About: "Join us for an exciting movie night filled with popcorn, laughter, and great company! Save the date and bring your favorite snacks to make it a memorable evening.",
+    About: "Innovate to Elevate – Your Ideas, Our Future! Get ready to showcase your innovation ideas💡 in this thrilling competition presented by PRAGATI 2025.",
     Timeline: "Event starts at 7 PM and ends at 11 PM. Be on time to grab the best seats!",
-    RegistrationFee: "The registration fee is $10 per person. Includes snacks and beverages.",
-    Contacts: "For more information, contact us at movie@night.com or call (123) 456-7890.",
+    RegistrationFee: "Outer College Teams: ₹400 MCKVIE + Outer College Teams: ₹400  MCKVIE Only Teams: ₹100 .",
+    Contacts: "For any query contact "
   };
 
   const card = {
