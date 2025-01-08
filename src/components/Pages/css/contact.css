@@ -265,3 +265,49 @@
     z-index: 10 !important;
   }
 }
+
+
+.contacts{
+  background-color:black;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  z-index: 10;
+}
+.cont-1{
+width: 30%;
+height: auto;
+background-color: transparent;
+}
+.cont-1 img{
+  width: 200px;
+  height: 200px;
+
+}
+.cont-2{
+  background-color: transparent;
+  height: 100%;
+  width: 70%;
+  padding: 10px;
+  
+}
+.inside{
+background-color: #1F1F1F;
+width: 100%;
+height: 300px;
+border-radius: 10px;
+}
+
+.part1 h2{
+ color: #9AE202;
+}
+
+.part2{
+background-color: red;
+width: 100%;
+ }
+
+ .part3{
+  color: #9AE202;
+ }

@@ -4,31 +4,28 @@ import Background from "./Background";
 import Background2 from "./Background2";
 import Footer from '../Footer';
 import './css/contact.css'; // Import your CSS
+import call from "../images/phone-call2.png";
 
 export const Contact = () => {
   const faqData = [
     {
-      question: "What is the event about ?",
+      question: "Can we participate in Multiple Events ?",
       answer:
-        "The event is a gathering of industry leaders, innovators, and enthusiasts to discuss the latest trends and opportunities.",
+        "Yes you can.",
     },
     {
-      question: "When and where will the event take place  ?",
+      question: "On spot registration is there ?",
       answer:
-        "The event will take place on March 15th, 2024, at the Grand Convention Center, Downtown City.",
+      "Yes. ",
     },
     {
-      question: "How can I register for the event ?",
+      question: "What's the Venue ?",
       answer:
-        "You can register online through our official website by visiting the 'Register' section.",
+        "MCKVIE Campus, Liluah, West Bengal.",
     },
     {
-      question: "Is the event free of charge  ?",
-      answer: "No, the event has a registration fee. Early bird discounts are available.",
-    },
-    {
-      question: "Will there be virtual attendance options  ?",
-      answer: "Yes, the event will be available for live streaming for registered attendees.",
+      question: "How to register ?",
+      answer: "Check our instagram page for more information.",
     },
   ];
   const [visibleIndex, setVisibleIndex] = useState(null);
@@ -44,7 +41,37 @@ export const Contact = () => {
           <div className="contuct-us-text">
             <h1>Faqs</h1>
           </div>
-          <div className="faqs-text"><h1>Event Location</h1></div>
+
+          <div className="contacts">
+              <div className="cont-1">
+              <img src={call} alt="Description of image" className="sponsor-images"/>
+
+              </div>
+              <div className="cont-2">
+
+              <div className="part1">
+              <h2>Contact Us for your Problem</h2>
+              </div>
+
+              <div className="inside">
+
+                <div className="part2">
+                
+                </div>
+                <div className="part3">
+                  
+                </div>
+
+
+              </div>
+              
+
+              </div>
+            
+          </div>
+
+
+          <div className="faqs-text"><h1>Frequently Asked Questions</h1></div>
         </div>
         <div className="faq-1">
           

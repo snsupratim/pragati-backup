@@ -79,6 +79,9 @@ export const Home = () => {
               </div>
             </div> 
           </div>
+
+
+
           <div className="segment1-1-1">
                 <div className="segment1-100-1">
                   <div >
