@@ -81,20 +81,11 @@ export const Home = () => {
           </div>
 
           <div className="segment1-1-1">
-<<<<<<< HEAD
-                <div className="segment1-100-1">
-                  <div >
-                    <h1>Pragati 2025 Sponsors</h1><br/><br/>
-                    
-                     <div className="sponsor-cell">
-                       <img src={sp1} alt="Description of image" className="sponsor-images"/>
-=======
             <div className="segment1-100-1">
               <div>
                 <h1>Pragati 2025 Sponsors</h1>
                 <br />
                 <br />
->>>>>>> d76a7ec74bda86bce15472fa12b7b3215c16e501
 
                 <div className="sponsor-cell">
                   <img
@@ -102,11 +93,7 @@ export const Home = () => {
                     alt="Description of image"
                     className="sponsor-images"
                   />
-                  <img
-                    src={sp2}
-                    alt="Description of image"
-                    className="sponsor-images"
-                  />
+                 
                 </div>
               </div>
             </div>
