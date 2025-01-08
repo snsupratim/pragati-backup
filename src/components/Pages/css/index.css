@@ -27,7 +27,7 @@
 }
 
 .segment1-1-1{
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
   min-height: 80vh;
   display: flex;
   align-items: center;
@@ -528,7 +528,7 @@
 }
 
 .sponsor-images {
-  width: 200px;
+  width: 153px;
   height: 153px;
 }
 
@@ -536,6 +536,25 @@
   gap: 100px;
   display: inline-flex;
 }
+.sponsor-cell-out {
+  width: 330px;
+  height: 220px;
+  background-color: rgb(44, 44, 44);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: auto;
+  border-radius: 14px;
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+}
+
+
+
+
+
+
 
 .geryish-color {
   color: #a5a4a4;
