@@ -12,23 +12,71 @@
     height: 70vh;
     background-color: transparent;
     display: flex;
-    align-items: center;
+    align-items: flex-start; /* Align items to the top */
     justify-content: center;
+    margin-top: -60px; /* Move the logo further up */
 }
 
 .rig {
     width: 50%;
-    height: 70vh;
+    height: auto;
     background-color: transparent;
     text-align: justify;
     padding: 20px;
     font-size: 1.1rem;
     color: rgb(175, 172, 172);
+    position: relative; /* Allow positioning of h1 inside rig */
+    display: flex;
+    flex-direction: column; /* Stack content in a column */
+    justify-content: flex-start; /* Align content to the top */
+}
+
+.about-title {
+    margin: 0;
+    font-size: 2.5rem;
+    color: rgb(120, 120, 120); /* Adjust title color */
+    text-align: right;
+    align-self: flex-end; /* Align title to the right in the .rig container */
+    margin-bottom: 20px; /* Add spacing below the title */
+    margin-right: 20%; /* Move the title further to the left on larger devices */
+}
+
+/* Move the title slightly to the left only on larger devices */
+@media (min-width: 1025px) {
+    .about-title {
+        margin-right: 20%; /* Move the title further to the left */
+    }
 }
 
 .colg-logo {
     height: 65vh;
     width: 50vh;
+}
+
+/* Media query for tablets and smaller screens */
+@media (max-width: 1024px) {
+    .about-1 {
+        margin-top: 70px; /* Reduce top margin for medium screens */
+    }
+
+    .lef, .rig {
+        width: 100%; /* Full width on tablets */
+        height: auto; /* Auto-adjust height */
+    }
+
+    .rig {
+        padding: 15px; /* Adjust padding for medium screens */
+    }
+
+    .about-title {
+        font-size: 2.2rem; /* Slightly smaller font for tablets */
+        margin-bottom: 15px; /* Adjust spacing */
+    }
+
+    .colg-logo {
+        height: 50vh; /* Adjust logo size for medium screens */
+        width: auto; /* Maintain aspect ratio */
+    }
 }
 
 /* Media query for mobile devices */
@@ -48,8 +96,33 @@
         padding: 15px; /* Adjust padding */
     }
 
+    .about-title {
+        font-size: 2rem; /* Smaller font size for mobile */
+        margin-bottom: 10px; /* Adjust spacing */
+        margin-right: 0; /* Reset right margin for smaller screens */
+    }
+
     .colg-logo {
         height: 40vh; /* Adjust logo size */
         width: auto; /* Maintain aspect ratio */
+        margin-top: -25px; /* Move logo further up on mobile */
+    }
+}
+
+/* Media query for small mobile devices (e.g., below 480px) */
+@media (max-width: 480px) {
+    .about-title {
+        font-size: 1.8rem; /* Reduce font size further */
+        text-align: center; /* Center align the title for small devices */
+        align-self: center; /* Center title within .rig container */
+    }
+
+    .rig {
+        font-size: 0.9rem; /* Slightly smaller text for small devices */
+    }
+
+    .colg-logo {
+        height: 30vh; /* Reduce logo size */
+        margin-top: -10px; /* Reset margin for better alignment */
     }
 }
