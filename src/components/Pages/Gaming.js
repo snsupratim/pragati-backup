@@ -14,7 +14,7 @@ const Innovation = () => {
        <div className="pages"> 
      <div className="segment11">
         <div className="segment11-1">
-        <h1 className="Events-title">COMPITITION :: GAMING</h1>
+        <h1 className="Events-title">EVENT :: GAMING</h1>
 
     <div className="Events-container">
       <div className="cardEvent__grid">

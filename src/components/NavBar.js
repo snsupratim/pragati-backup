@@ -31,7 +31,7 @@ function NavBar() {
       <div className="nav-container">
         <NavLink exact to="/" className="nav-logo">
           {/* <span>PRAGATI 2025</span> */}
-          <img src={logo} className='f-logo'/><h5>PRAGATI 2K25</h5> 
+          <img src={logo} className='f-logo'/><h5>PRAGATI 2025</h5> 
         </NavLink>
 
         <ul className={click ? "nav-menu active" : "nav-menu"}>

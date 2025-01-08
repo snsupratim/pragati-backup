@@ -14,7 +14,7 @@ export const Blog = () => {
        <div className="pages"> 
      <div className="segment11">
         <div className="segment11-1">
-        <h1 className="blog-title">Competitions</h1>
+        <h1 className="blog-title">EVENTS</h1>
         {/* <h1>Competitions</h1> */}
         <div className="blog-container">
       <div className="blog-cards-container">
