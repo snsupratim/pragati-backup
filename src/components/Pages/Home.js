@@ -83,7 +83,7 @@ export const Home = () => {
           <div className="segment1-1-1">
             <div className="segment1-100-1">
               <div>
-                <h1>Pragati 2025 Sponsors</h1>
+                <h1>Pragati 2025 Sponsor</h1>
                 <br />
                 <br />
               <div className="sponsor-cell-out">
