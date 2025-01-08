@@ -1,22 +1,5 @@
 /* General container for the about section */
-.pages {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .segment11 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 20px;
-  }
-  
-  .segment11-1 {
-    max-width: 1200px;
-    width: 100%;
-    padding: 20px;
-  }
-  
+
   /* Title styling */
   .about-title {
     margin: 0;
