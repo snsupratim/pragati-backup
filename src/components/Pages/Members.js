@@ -57,7 +57,7 @@ export const Members = () => {
                     <div className="member-info">
                       <h3 className="member-name">Akash Banerjee</h3>
                       <p className="member-role">Developer</p>
-                      <p className="member-roll">CSE/</p>
+                      <p className="member-roll">CSE-4th Year</p>
                       <div className="member-social">
                         <a
                           href="https://wa.me/+916290448040"
@@ -98,7 +98,7 @@ export const Members = () => {
                     <div className="member-info">
                       <h3 className="member-name">Nishka Shrimali</h3>
                       <p className="member-role"> Developer</p>
-                      <p className="member-roll">CSE/</p>
+                      <p className="member-roll">CSE-4th Year</p>
                       <div className="member-social">
                         <a
                           href="https://wa.me/+916291764011"
