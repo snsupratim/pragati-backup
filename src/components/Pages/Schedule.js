@@ -48,19 +48,19 @@ export const Schedule = () => {
         description: (
           <ul>
             <li>
-              <Link to="/about">INOVATIVE MODEL</Link>
+              <Link to="/InnovativeModelCompetition">INOVATIVE MODEL</Link>
             </li>
             <li>
-              <Link to="/about">MATH MANIA</Link>
+              <Link to="/MATH_MANIA">MATH MANIA</Link>
             </li>
             <li>
-              <Link to="/about">CATIA </Link>
+              <Link to="/CATIA_desginContest">CATIA </Link>
             </li>
             <li>
-              <Link to="/about">CIRCUIT DESIGN</Link>
+              <Link to="/CircuitDesign">CIRCUIT DESIGN </Link>
             </li>
             <li>
-              <Link to="/about">ROBO FIFA (1st/2nd/Final Round)</Link>
+              <Link to="/ROBO_FIFA">ROBO FIFA (1st/2nd/Final Round)</Link>
             </li>
           </ul>
         ),
@@ -70,19 +70,19 @@ export const Schedule = () => {
         description: (
           <ul>
             <li>
-              <Link to="/about">INOVATIVE MODEL</Link>
+              <Link to="/InnovativeModelCompetition">INOVATIVE MODEL</Link>
             </li>
             <li>
-              <Link to="/about">MATH MANIA</Link>
+              <Link to="/MATH_MANIA">MATH MANIA</Link>
             </li>
             <li>
-              <Link to="/about">CATIA </Link>
+              <Link to="/CATIA_desginContest">CATIA </Link>
             </li>
             <li>
-              <Link to="/about">CIRCUIT DESIGN</Link>
+              <Link to="/CircuitDesign">CIRCUIT DESIGN </Link>
             </li>
             <li>
-              <Link to="/about">ROBO FIFA (1st/2nd/Final Round)</Link>
+              <Link to="/ROBO_FIFA">ROBO FIFA (1st/2nd/Final Round)</Link>
             </li>
           </ul>
         ),
@@ -92,19 +92,19 @@ export const Schedule = () => {
         description: (
           <ul>
             <li>
-              <Link to="/about">INOVATIVE MODEL</Link>
+              <Link to="/InnovativeModelCompetition">INOVATIVE MODEL</Link>
             </li>
             <li>
-              <Link to="/about">MATH MANIA</Link>
+              <Link to="/MATH_MANIA">MATH MANIA</Link>
             </li>
             <li>
-              <Link to="/about">CATIA </Link>
+              <Link to="/CATIA_desginContest">CATIA </Link>
             </li>
             <li>
-              <Link to="/about">CIRCUIT DESIGN</Link>
+              <Link to="/CircuitDesign">CIRCUIT DESIGN </Link>
             </li>
             <li>
-              <Link to="/about">ROBO FIFA (1st/2nd/Final Round)</Link>
+              <Link to="/ROBO_FIFA">ROBO FIFA (1st/2nd/Final Round)</Link>
             </li>
           </ul>
         ),
@@ -117,19 +117,19 @@ export const Schedule = () => {
         description: (
           <ul>
             <li>
-              <Link to="/about">INOVATIVE MODEL</Link>
+              <Link to="/InnovativeModelCompetition">INOVATIVE MODEL</Link>
             </li>
             <li>
-              <Link to="/about">MATH MANIA</Link>
+              <Link to="/MATH_MANIA">MATH MANIA</Link>
             </li>
             <li>
-              <Link to="/about">TECHNICAL POSTER</Link>
+              <Link to="/TechnicalPosterPresentation">TECHNICAL POSTER </Link>
             </li>
             <li>
-              <Link to="/about">NFS (MOST WANTED) </Link>
+              <Link to="/NFS_MOSTWANTED">NFS (MOST WANTED) </Link>
             </li>
             <li>
-              <Link to="/about">ROBO FIFA (1st/2nd/Final Round)</Link>
+              <Link to="/ROBO_FIFA">ROBO FIFA (1st/2nd/Final Round)</Link>
             </li>
           </ul>
         ),
@@ -139,19 +139,19 @@ export const Schedule = () => {
         description: (
           <ul>
             <li>
-              <Link to="/about">INOVATIVE MODEL</Link>
+              <Link to="/InnovativeModelCompetition">INOVATIVE MODEL</Link>
             </li>
             <li>
-              <Link to="/about">MATH MANIA</Link>
+              <Link to="/MATH_MANIA">MATH MANIA</Link>
             </li>
             <li>
-              <Link to="/about">TECHNICAL POSTER </Link>
+              <Link to="/TechnicalPosterPresentation">TECHNICAL POSTER </Link>
             </li>
             <li>
-              <Link to="/about">NFS (MOST WANTED) </Link>
+              <Link to="/NFS_MOSTWANTED">NFS (MOST WANTED) </Link>
             </li>
             <li>
-              <Link to="/about">ROBO FIFA (1st/2nd/Final Round)</Link>
+              <Link to="/ROBO_FIFA">ROBO FIFA (1st/2nd/Final Round)</Link>
             </li>
           </ul>
         ),
@@ -161,19 +161,19 @@ export const Schedule = () => {
         description: (
           <ul>
             <li>
-              <Link to="/about">INOVATIVE MODEL</Link>
+              <Link to="/InnovativeModelCompetition">INOVATIVE MODEL</Link>
             </li>
             <li>
-              <Link to="/about">MATH MANIA</Link>
+              <Link to="/MATH_MANIA">MATH MANIA</Link>
             </li>
             <li>
-              <Link to="/about">TECHNICAL POSTER </Link>
+              <Link to="/TechnicalPosterPresentation">TECHNICAL POSTER </Link>
             </li>
             <li>
-              <Link to="/about">NFS (MOST WANTED) </Link>
+              <Link to="/NFS_MOSTWANTED">NFS (MOST WANTED) </Link>
             </li>
             <li>
-              <Link to="/about">ROBO FIFA (1st/2nd/Final Round)</Link>
+              <Link to="/ROBO_FIFA">ROBO FIFA (1st/2nd/Final Round)</Link>
             </li>
           </ul>
         ),
@@ -196,22 +196,24 @@ export const Schedule = () => {
         description: (
           <ul>
             <li>
-              <Link to="/about">INNOVATIVE IDEA </Link>
+              <Link to="/InnovativeIdeaContest">INNOVATIVE IDEA </Link>
             </li>
             <li>
-              <Link to="/about">ROBO WAR (1st/2nd/Final Round)</Link>
+              <Link to="/ROBO_WAR">ROBO WAR (1st/2nd/Final Round)</Link>
             </li>
             <li>
-              <Link to="/about">CHASE THE MAZE (1st/2nd/Final Round)</Link>
+              <Link to="/CHASE_THE_MAZE">
+                CHASE THE MAZE (1st/2nd/Final Round)
+              </Link>
             </li>
             <li>
-              <Link to="/about"> ENIGMA (TREASURE HUNT)</Link>
+              <Link to="/ENIGMA"> ENIGMA (TREASURE HUNT)</Link>
             </li>
             <li>
-              <Link to="/about"> CODE FIESTA</Link>
+              <Link to="/CODEFIESTA"> CODE FIESTA</Link>
             </li>
             <li>
-              <Link to="/about"> eFOOTBALL Mobile 2025</Link>
+              <Link to="/FIFA"> eFOOTBALL Mobile 2025</Link>
             </li>
           </ul>
         ),
@@ -221,22 +223,24 @@ export const Schedule = () => {
         description: (
           <ul>
             <li>
-              <Link to="/about">INNOVATIVE IDEA </Link>
+              <Link to="/InnovativeIdeaContest">INNOVATIVE IDEA </Link>
             </li>
             <li>
-              <Link to="/about">ROBO WAR (1st/2nd/Final Round)</Link>
+              <Link to="/ROBO_WAR">ROBO WAR (1st/2nd/Final Round)</Link>
             </li>
             <li>
-              <Link to="/about">CHASE THE MAZE (1st/2nd/Final Round)</Link>
+              <Link to="/CHASE_THE_MAZE">
+                CHASE THE MAZE (1st/2nd/Final Round)
+              </Link>
             </li>
             <li>
-              <Link to="/about"> ENIGMA (TREASURE HUNT)</Link>
+              <Link to="/ENIGMA"> ENIGMA (TREASURE HUNT)</Link>
             </li>
             <li>
-              <Link to="/about"> CODE FIESTA</Link>
+              <Link to="/CODEFIESTA"> CODE FIESTA</Link>
             </li>
             <li>
-              <Link to="/about"> eFOOTBALL Mobile 2025</Link>
+              <Link to="/FIFA"> eFOOTBALL Mobile 2025</Link>
             </li>
           </ul>
         ),
@@ -246,22 +250,24 @@ export const Schedule = () => {
         description: (
           <ul>
             <li>
-              <Link to="/about">INNOVATIVE IDEA </Link>
+              <Link to="/InnovativeIdeaContest">INNOVATIVE IDEA </Link>
             </li>
             <li>
-              <Link to="/about">ROBO WAR (1st/2nd/Final Round)</Link>
+              <Link to="/ROBO_WAR">ROBO WAR (1st/2nd/Final Round)</Link>
             </li>
             <li>
-              <Link to="/about">CHASE THE MAZE (1st/2nd/Final Round)</Link>
+              <Link to="/CHASE_THE_MAZE">
+                CHASE THE MAZE (1st/2nd/Final Round)
+              </Link>
             </li>
             <li>
-              <Link to="/about"> ENIGMA (TREASURE HUNT)</Link>
+              <Link to="/ENIGMA"> ENIGMA (TREASURE HUNT)</Link>
             </li>
             <li>
-              <Link to="/about"> CODE FIESTA</Link>
+              <Link to="/CODEFIESTA"> CODE FIESTA</Link>
             </li>
             <li>
-              <Link to="/about"> eFOOTBALL Mobile 2025</Link>
+              <Link to="/FIFA"> eFOOTBALL Mobile 2025</Link>
             </li>
           </ul>
         ),
@@ -274,25 +280,27 @@ export const Schedule = () => {
         description: (
           <ul>
             <li>
-              <Link to="/about">INNOVATIVE IDEA </Link>
+              <Link to="/InnovativeIdeaContest">INNOVATIVE IDEA </Link>
             </li>
             <li>
-              <Link to="/about">ROBO WAR (1st/2nd/Final Round)</Link>
+              <Link to="/ROBO_WAR">ROBO WAR (1st/2nd/Final Round)</Link>
             </li>
             <li>
-              <Link to="/about">CHASE THE MAZE (1st/2nd/Final Round)</Link>
+              <Link to="/CHASE_THE_MAZE">
+                CHASE THE MAZE (1st/2nd/Final Round)
+              </Link>
             </li>
             <li>
-              <Link to="/about"> ENIGMA (TREASURE HUNT)</Link>
+              <Link to="/ENIGMA"> ENIGMA (TREASURE HUNT)</Link>
             </li>
             <li>
-              <Link to="/about"> CODE FIESTA</Link>
+              <Link to="/CODEFIESTA"> CODE FIESTA</Link>
             </li>
             <li>
-              <Link to="/about">ML MANIA</Link>
+              <Link to="/ML_MANIA">ML MANIA</Link>
             </li>
             <li>
-              <Link to="/about"> eFOOTBALL Mobile 2025</Link>
+              <Link to="/FIFA"> eFOOTBALL Mobile 2025</Link>
             </li>
           </ul>
         ),
@@ -302,25 +310,27 @@ export const Schedule = () => {
         description: (
           <ul>
             <li>
-              <Link to="/about">INNOVATIVE IDEA </Link>
+              <Link to="/InnovativeIdeaContest">INNOVATIVE IDEA </Link>
             </li>
             <li>
-              <Link to="/about">ROBO WAR (1st/2nd/Final Round)</Link>
+              <Link to="/ROBO_WAR">ROBO WAR (1st/2nd/Final Round)</Link>
             </li>
             <li>
-              <Link to="/about">CHASE THE MAZE (1st/2nd/Final Round)</Link>
+              <Link to="/CHASE_THE_MAZE">
+                CHASE THE MAZE (1st/2nd/Final Round)
+              </Link>
             </li>
             <li>
-              <Link to="/about"> ENIGMA (TREASURE HUNT)</Link>
+              <Link to="/ENIGMA"> ENIGMA (TREASURE HUNT)</Link>
             </li>
             <li>
-              <Link to="/about"> CODE FIESTA</Link>
+              <Link to="/CODEFIESTA"> CODE FIESTA</Link>
             </li>
             <li>
-              <Link to="/about"> ML MANIA</Link>
+              <Link to="/ML_MANIA">ML MANIA</Link>
             </li>
             <li>
-              <Link to="/about"> eFOOTBALL Mobile 2025</Link>
+              <Link to="/FIFA"> eFOOTBALL Mobile 2025</Link>
             </li>
           </ul>
         ),
@@ -330,25 +340,27 @@ export const Schedule = () => {
         description: (
           <ul>
             <li>
-              <Link to="/about">INNOVATIVE IDEA </Link>
+              <Link to="/InnovativeIdeaContest">INNOVATIVE IDEA </Link>
             </li>
             <li>
-              <Link to="/about">ROBO WAR (1st/2nd/Final Round)</Link>
+              <Link to="/ROBO_WAR">ROBO WAR (1st/2nd/Final Round)</Link>
             </li>
             <li>
-              <Link to="/about">CHASE THE MAZE (1st/2nd/Final Round)</Link>
+              <Link to="/CHASE_THE_MAZE">
+                CHASE THE MAZE (1st/2nd/Final Round)
+              </Link>
             </li>
             <li>
-              <Link to="/about"> ENIGMA (TREASURE HUNT)</Link>
+              <Link to="/ENIGMA"> ENIGMA (TREASURE HUNT)</Link>
             </li>
             <li>
-              <Link to="/about"> CODE FIESTA</Link>
+              <Link to="/CODEFIESTA"> CODE FIESTA</Link>
             </li>
             <li>
-              <Link to="/about">ML MANIA</Link>
+              <Link to="/ML_MANIA">ML MANIA</Link>
             </li>
             <li>
-              <Link to="/about"> eFOOTBALL Mobile 2025</Link>
+              <Link to="/FIFA"> eFOOTBALL Mobile 2025</Link>
             </li>
           </ul>
         ),
@@ -371,11 +383,9 @@ export const Schedule = () => {
         description: (
           <ul>
             <li>
-              <Link to="/about">QUIZOMANIA</Link>
+              <Link to="/QUIZOMANIA">QUIZOMANIA</Link>
             </li>
-            <li>
-              <Link to="/about">Buffer Time for completion of any events</Link>
-            </li>
+            <li>Buffer Time for completion of any events.</li>
           </ul>
         ),
       },
