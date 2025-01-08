@@ -1138,11 +1138,161 @@ export const Members = () => {
                 >
                   <FaWhatsapp />
                 </a>
-          
-                  
                       </div>
                     </div>
                   </div>
+                   
+
+
+
+
+                               {/* Empty cards */}
+
+                  <div className="team-member">
+            <div className="member-photo">
+              <img
+                src=""
+                alt="Event Organizer"
+                className="member-img"
+              />
+            </div>
+            <div className="member-info">
+              <h3 className="member-name">1</h3>
+              <p className="member-role">Organizer</p>
+              <p className="member-roll"></p>
+              <div className="member-social">
+                <a
+                  href="https://wa.me/1234567890"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="social-icon whatsapp"
+                >
+                  <FaWhatsapp />
+                </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="team-member">
+            <div className="member-photo">
+              <img
+                src=""
+                alt="Event Organizer"
+                className="member-img"
+              />
+            </div>
+            <div className="member-info">
+              <h3 className="member-name">1</h3>
+              <p className="member-role">Organizer</p>
+              <p className="member-roll"></p>
+              <div className="member-social">
+                <a
+                  href="https://wa.me/1234567890"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="social-icon whatsapp"
+                >
+                  <FaWhatsapp />
+                </a>
+                      </div>
+                    </div>
+                  </div><div className="team-member">
+            <div className="member-photo">
+              <img
+                src=""
+                alt="Event Organizer"
+                className="member-img"
+              />
+            </div>
+            <div className="member-info">
+              <h3 className="member-name">1</h3>
+              <p className="member-role">Organizer</p>
+              <p className="member-roll"></p>
+              <div className="member-social">
+                <a
+                  href="https://wa.me/1234567890"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="social-icon whatsapp"
+                >
+                  <FaWhatsapp />
+                </a>
+                      </div>
+                    </div>
+                  </div><div className="team-member">
+            <div className="member-photo">
+              <img
+                src=""
+                alt="Event Organizer"
+                className="member-img"
+              />
+            </div>
+            <div className="member-info">
+              <h3 className="member-name">1</h3>
+              <p className="member-role">Organizer</p>
+              <p className="member-roll"></p>
+              <div className="member-social">
+                <a
+                  href="https://wa.me/1234567890"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="social-icon whatsapp"
+                >
+                  <FaWhatsapp />
+                </a>
+                      </div>
+                    </div>
+                  </div><div className="team-member">
+            <div className="member-photo">
+              <img
+                src=""
+                alt="Event Organizer"
+                className="member-img"
+              />
+            </div>
+            <div className="member-info">
+              <h3 className="member-name">1</h3>
+              <p className="member-role">Organizer</p>
+              <p className="member-roll"></p>
+              <div className="member-social">
+                <a
+                  href="https://wa.me/1234567890"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="social-icon whatsapp"
+                >
+                  <FaWhatsapp />
+                </a>
+                      </div>
+                    </div>
+                  </div><div className="team-member">
+            <div className="member-photo">
+              <img
+                src=""
+                alt="Event Organizer"
+                className="member-img"
+              />
+            </div>
+            <div className="member-info">
+              <h3 className="member-name">1</h3>
+              <p className="member-role">Organizer</p>
+              <p className="member-roll"></p>
+              <div className="member-social">
+                <a
+                  href="https://wa.me/1234567890"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="social-icon whatsapp"
+                >
+                  <FaWhatsapp />
+                </a>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+
                 </div>
               </section>
             </div>
