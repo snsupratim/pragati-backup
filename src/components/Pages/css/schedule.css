@@ -119,6 +119,10 @@
   color: #066921;
   z-index: 10 !important;
 }
+.selected-date{
+  color: white;
+  z-index: 10 !important;
+}
 
 /* Responsive Styles */
 
